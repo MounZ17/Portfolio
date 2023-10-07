@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MyPortfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="HTML5 website template">
+  <meta name="keywords" content="global, template, html, sass, jquery">
+  <meta name="author" content="Bucky Maler">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- notification for small viewports and landscape oriented smartphones -->
+<div class="device-notification">
+  <a class="device-notification--logo" href="#0">
+    <img src="assets/img/logo.png" alt="Global">
+    <p>Mounir</p>
+  </a>
+</div>
+<style>
+.logo-holder {
+    
+    width: 260px;
+    height: 280px;
+    position: relative;
+    margin: 0 auto ;
+    padding-left: 500px;
+    padding-top: 12px;
+    padding-bottom: 24px;
+    -webkit-transform: translateZ(0);
+ }
+.bg {
+  position: absolute;
+  top: 9px;
+  left: 8px;
+  right: 8px;
+  bottom: 8px;
+  background: url(http://boutique.flarework.com/wp-content/themes/boutique/img/logo_large.png) center 0px no-repeat ;
+    background-size: contain;
+    -webkit-filter: drop-shadow(0px 6px 25px rgba(0,0,0,0.5));
+}
+.bar {
+    position: relative;
+    height: 8px;
+    background: #6a6a6a;
+    width:  0%;
+    top: 0px;
+    left: 50px;
+    margin-top: 8px;
+    box-shadow: 0 0 3px rgba(192,192,192,0.9);
+    animation: fill 5s infinite alternate, colors 5s infinite alternate;
+}
+
+.bar.fill1 {
+  animation: fill-1 5s infinite alternate, colors 5s infinite alternate;
+}
+.bar.fill2 {
+   animation:  fill-2 5s infinite alternate, colors 5s infinite alternate;
+}
+.bar.fill3 {
+   animation:  fill-3 5s infinite alternate, colors 5s infinite alternate;
+}
+.bar.fill4 {
+   animation:  fill-4 5s infinite alternate, colors 5s infinite alternate;
+}
+.bar.fill5 {
+   animation:  fill-5 5s infinite alternate, colors 5s infinite alternate;
+}
+.bar.fill6 {
+   animation:  fill-6 5s infinite alternate, colors 5s infinite alternate;
+}
+@keyframes fill {
+  0%   { width: 0; }
+  33%  { width: 45px;}
+  66%  { width: 20px;}
+  100% { width: 160px; }
+}
+@keyframes fill-1 {
+  0%   { width: 0; }
+  33%  { width: 50px;}
+  66%  { width: 20px;}
+  100% { width: 130px; }
+}
+@keyframes fill-2 {
+  0%   { width: 0; }
+  33%  { width: 90px;}
+  66%  { width: 70px;}
+  100% { width: 136px; }
+}
+@keyframes fill-3 {
+  0%   { width: 0; }
+  33%  { width: 50px;}
+  66%  { width: 24px;}
+  100% { width: 109px; }
+}
+@keyframes fill-4 {
+  0%   { width: 0; }
+  33%  { width: 98px;}
+  66%  { width: 34px;}
+  100% { width: 99px; }
+}
+@keyframes fill-5 {
+  0%   { width: 0; }
+  33%  { width: 30px;}
+  66%  { width: 10px;}
+  100% { width: 148px; }
+}
+@keyframes fill-6 {
+  0%   { width: 0; }
+  33%  { width: 48px;}
+  66%  { width: 22px;}
+  100% { width: 140px; }
+}
+@keyframes colors {
+  0% { background-color: #5a5a5a;}
+  50% { background-color: #3a3;}
+  100% { background-color: #6a6a6a;}
+}
+</style>
+
+
+<div class="perspective effect-rotate-left">
+  <div class="container"><div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <header class="header">
+          <a class="header--logo" href="#0">
+           
+          </a>
+          <button class="header--cta cta">Contactez moi</button>
+          <div class="header--nav-toggle">
+            <span></span>
+          </div>
+        </header>
+        <nav class="l-side-nav">
+          <ul class="side-nav">
+            <li class="is-active"><span>Acceuil <i class="fas fa-home"></i></span></li>
+            <li><span>Projets</span></li>
+            <li><span>Contact</span></li>
+          </ul>
+        </nav>
+        <ul class="l-main-content main-content">
+          <li class="l-section section section--is-active">
+            <div class="intro">
+              <div  class="intro--banner">
+                <h1 id="myH1">Bienvenue.</h1>
+                <h4><br>Mon nom est CHEMLOUL Mounir, je suis un développeur full stack et ingénieur en intelligence artificielle. <br>J'ai développé plusieurs types de projets que ce soit des applications web, logiciels de gestion
+                et des projets en utilisant l'apprentissage automatique. </h4>
+                
+                <div class="logo-holder">
+                  <div class="bg"></div>
+                  <div class="bar"></div>
+                  <div class="bar fill1"></div>
+                  <div class="bar fill2"></div>
+                  <div class="bar fill3"></div>
+                  <div class="bar fill4"></div>
+                  <div class="bar fill1"></div>
+                  <div class="bar fill5"></div>
+                  <div class="bar fill6"></div>
+                  <div class="bar"></div>
+                </div>
+              </div>
+              <div class="intro--options">
+                <img src="assets/img/kisspng-website-development-javascript-html5-css3-cascadin-appload-comprehensive-software-and-mobile-app-de-5b7b834e216377.0246733915348211981368 (1).png">
+                <img src="assets/img/dj.png">
+                <img src="assets/img/react.png">
+                
+              </div>
+            </div>
+          </li>
+          
+          <li class="l-section section">
+            
+            <div class="work">
+              <h2>Mes projets</h2>
+              <div class="work--lockup" >
+                <ul class="slider">
+                  <li class="slider--item slider--item-left">
+                    <a href="#0">
+                      <div class="slider--item-image" >
+                        <img src="assets/img/merged.jpg" alt="change detection">
+                      </div>
+                      <p class="slider--item-title">La détéction de changement </p>
+                      <p class="slider--item-description">Creation d'un réseau de neurones qui a pour but de détécter les changements en milieu urbain<br>
+                      entre deux images satellitaires.</p>
+                    </a>
+                   
+                  </li>
+                  <li class="slider--item slider--item-center">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/P_acc (4).png" alt="Usthbook">
+                      </div>
+                      <p class="slider--item-title">Usthbook</p>
+                      <p class="slider--item-description">Le réseau social dédié à l'université des Sciences et de la Technologie Houari Boumediene.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-right">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/image_2023-10-04_124643266.png" alt="Alex Nowak">
+                      </div>
+                      <p class="slider--item-title">USTHB Vis.</p>
+                      <p class="slider--item-description">Visualisation des créneaux horaires des salles et des activités sur la carte de l'université en utilisant geojson et js.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-right-right ">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/image_2023-10-04_130546228.png" alt="Alex Nowak">
+                      </div>
+                      <p class="slider--item-title">Détection des maladies <br> du tractus gastro-intestinal </p>
+                      <p class="slider--item-description">
+                        Amélioration de la précision à l'aide des caractéristiques convolutionnelles profondes et géométriques. </p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-right-right-right ">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/hiclipart.com.png" alt="Alex Nowak">
+                      </div>
+                      <p class="slider--item-title">Air traffic controller</p>
+                      <p class="slider--item-description">Conception d'une application distribuée permettant la gestion de vols en utilisant JAVA et l'API "remote method invocation.</p>
+                    </a>
+                  </li>
+                </ul>
+                <div class="slider--prev" >
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
+                </div>
+                <div class="slider--next">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="contact">
+              
+              <div class="contact--lockup"> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12792.686272284343!2d3.012169871834397!3d36.718440556649604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128fae75f521a8a1%3A0x894d4503a4b58d64!2sSebala%2C%20Draria!5e0!3m2!1sfr!2sdz!4v1696611949610!5m2!1sfr!2sdz" width="600" height="450" style="border:0; padding-right: 50px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         
+                <div class="modal">
+                  <div class="modal--information">
+                    <p>cité 373 Lgts, Sebala, <br>Draria, Alger, Algérie.</p>
+                    <a href="mailto:chemloulmounir@gmail.com">chemloulmounir@gmail.com</a>
+                    <a href="tel:+148126287560">+213772720962</a>
+                  </div>
+                  <ul class="modal--options">
+                    <li><a href="#0">Mon résumé</a></li>
+                    <li><a href="mailto:chemloulmounir@gmail.com">Contactez moi içi</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <ul class="outer-nav">
+    <li class="is-active">Acceuil <i class="fas fa-home"></i></li>
+    <li>Mes projets</li>
+    <li>Contactez moi</li>
+  </ul>
+</div>
+
+<script>
+  // Wait for the DOM to be fully loaded
+  document.addEventListener("DOMContentLoaded", function () {
+      // Get a reference to the <h1> element
+      var h1Element = document.getElementById("myH1");
+
+      // Display the <h1> element
+      h1Element.style.display = "block";
+  });
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/functions-min.js"></script>
+</body>
+</html>
